@@ -9,6 +9,7 @@
         background-color: lightgreen;
         position: relative;
         top: 100px;
+        scroll-behavior: smooth; // smooth scrolling transtitions
         scroll-snap-type: y mandatory; // scrolling through entire pages
 
         > * { // for each component in this section
