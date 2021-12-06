@@ -1,0 +1,24 @@
+@import "./global.scss";
+
+.app {
+    height: 100vh;
+
+    .sections {
+        width: 100%;
+        height: calc(100vh - 100px); // topbar height
+        background-color: lightgreen;
+        position: relative;
+        top: 100px;
+        scroll-snap-type: y mandatory; // scrolling through entire pages
+
+        > * { // for each component in this section
+            width: 100vw;
+            height: calc(100vh - 100px);
+            scroll-snap-align: start; // viz component start
+            scrollbar-width: none; // for firefox
+            &::-webkit-scrollbar { // chrome, safari
+                display: none;
+            }
+        }
+    }
+}
