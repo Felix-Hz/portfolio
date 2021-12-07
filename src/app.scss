@@ -5,16 +5,16 @@
 
     .sections {
         width: 100%;
-        height: calc(100vh - 100px); // topbar height
+        height: calc(100vh - 70px); // topbar height
         background-color: lightgreen;
         position: relative;
-        top: 100px;
+        top: 70px;
         scroll-behavior: smooth; // smooth scrolling transtitions
         scroll-snap-type: y mandatory; // scrolling through entire pages
 
         > * { // for each component in this section
             width: 100vw;
-            height: calc(100vh - 100px);
+            height: calc(100vh - 70px);
             scroll-snap-align: start; // viz component start
             scrollbar-width: none; // for firefox
             &::-webkit-scrollbar { // chrome, safari
