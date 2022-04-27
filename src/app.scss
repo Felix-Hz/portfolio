@@ -1,5 +1,9 @@
 @import "./global.scss";
 
+html {
+    overscroll-behavior: none
+  }
+
 .app {
     height: 100vh;
 
