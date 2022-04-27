@@ -1,2 +1,4 @@
-https://www.youtube.com/watch?v=7WwtzsSHdpI&t=2553s
-Using React with Material UI, Sass. 38:10
+# Work in progress :construction_worker: :construction_worker: :construction_worker:
+- :boom: Building my portfolio with ReactJS and Material UI components.
+- :boom: I'm integrating Sass, and Bootstrap. 
+- :zap: The best is yet to come. 
