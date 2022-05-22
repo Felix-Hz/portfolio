@@ -14,7 +14,7 @@ html {
         position: relative;
         top: 70px;
         scroll-behavior: smooth; // smooth scrolling transtitions
-        scroll-snap-type: y mandatory; // scrolling through entire pages
+        scroll-snap-type: y proximity; // scrolling through entire pages
 
         > * { // for each component in this section
             width: 100vw;
