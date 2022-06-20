@@ -1,4 +1,5 @@
 import "./topbar.scss";
+import BasicMenu from "../menu/menu"
 import { Person, Mail } from "@material-ui/icons";
 
 export default function Topbar() {
@@ -19,11 +20,7 @@ export default function Topbar() {
           </div>
         </div>
         <div className="right">
-          <div className="hamburger">
-            <span className="line1"> </span>
-            <span className="line2"> </span>
-            <span className="line3"> </span>
-          </div>
+          <BasicMenu />
         </div>
       </div>
     </div>

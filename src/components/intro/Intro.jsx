@@ -1,10 +1,7 @@
 // rfc to create fx
 
-import "./intro.scss"
+import "./intro.scss";
 
 export default function Intro() {
-    return (
-        <div className="intro" id="intro">
-        </div>
-    )
+  return <div className="intro" id="intro"></div>;
 }

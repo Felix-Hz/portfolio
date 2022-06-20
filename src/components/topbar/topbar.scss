@@ -13,7 +13,7 @@
     padding: 0px 30px;
     height: 100%;
     width: 100%;
-    max-width: 1170px;
+    max-width: 970px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,13 +43,11 @@
           height: 12px; // some icons are font based, others can be modified w/ height-width
           margin-right: 5px;
           fill: $title;
-          display: none;
         }
 
         span {
           font-size: 10px;
           font-weight: 500;
-          display: none;
         }
       }
     }
@@ -70,10 +68,24 @@
         }
       }
     }
-
     &.active {
-      background-color: wheat;
+      background-color: white;
       color: black;
+
+      .hamburger {
+        span {
+          &:first-child {
+            background-color: white;
+          }
+
+          &:nth-child(2) {
+            opacity: 0;
+          }
+          &:last-child {
+            background-color: white;
+          }
+        }
+      }
     }
   }
 }
